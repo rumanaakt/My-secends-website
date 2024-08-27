@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.section{
+    display: flex;
+}
+
+
+.half {
+    background-color: skyblue;
+    padding: 3% ;
+    width: 30%;
+     }
+
+.li img{
+    border-radius: 300px 300px 300px 300px;
+}
+.fl img{
+   border-color: rgb(144, 101, 46);
+    border-radius: 200px;
+    border: 5px;
+   
+
+}
+.sa{
+    font-size: 50px;
+    color:white;
+}
+.ru{
+    font-size: 50px;
+    padding: 5%;
+    padding-left: 5%;
+    color: white;
+}
+   
+
+.soci {
+    height: 80px;
+    width: 80px;
+    padding: 30px;
+    display: flex;
+    padding-left: 10%;
+    gap: 70px;
+}
+
+.foot{
+    box-shadow: 0px 0px 10px 0px rgb(27, 137, 152);
+    border-radius: 15px;
+    margin: 20px 100px;
+
+}
+@media screen and (max-width:576px){
+    .section{
+        display:flex;
+        flex-direction: column;
+       
+    }
+    .half {
+        background-color: skyblue;
+        padding: 23% ;
+        width: 100%;
+         }
+         .soci {
+            height: 80px;
+            width: 80px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            padding-left: 10%;
+            gap: 70px;
+        }
+        .foot{
+            box-shadow: 0px 0px 10px 0px rgb(27, 137, 152);
+            border-radius: 15px;
+            margin: 100px 20px;
+        
+        }
+}
+.soci :hover {
+    margin:50px 0px 10px 0px;
+    transition: 1s;
+}
+.last{
+    display: flex; 
+    width:33%;
+}
+.last{
+    display:flex;
+    padding:20px;
+    width:80%;
+    margin-left:130px;
+    color: #000;
+}
+.btn{
+    color:white;
+	text-decoration:none;
+	background-image:linear-gradient(rgb(159, 203, 239),rgb(124, 146, 210));
+	font-weight:700px;
+	padding:10px 10px;
+	border-radius:10px;
+    margin-top:10px;
+    transition:1s;
+  
+}
+.btn:hover{
+    transform: matrix(1.1);
+}
+.l2{
+    background-color: skyblue;
+    border:5px white;
+    border-radius:15px;
+    box-shadow: 10px 10px 10px rgb(254, 253, 253);
+    transition:1s;
+    width:40%;
+}
+.last h2{
+    color: rgb(219, 12, 209);
+    margin-bottom:8px;
+}
+.ms{
+    margin-left: 500px;
+    color:skyblue
+}
+.ls{
+    background-color: rgb(232, 223, 223);
+    border:40px solid white;
+    border-radius:20px;
+    width:33%;
+    transition:1s;
+}
+
+.ses{
+    display: flex;
+    margin-top: 90px;
+   background-color:rgb(101, 237, 237);
+}
+.ses img{
+    padding-right:90px;
+}
+.so{
+    font-size:20px;
+    width:50%;
+	padding:4%;
+    margin: 4%;
+}
+.so p{
+    margin-bottom:20PX;
+}
+.b{
+    color: blueviolet;
+    margin-left: 100px;
+}
